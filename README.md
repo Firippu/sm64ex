@@ -7,6 +7,7 @@ List of current edits;
 - Mario gets fall damage from moderate heights.
 - Mario dies from falling from high heights.
 - Mario cannot use groundpound, kick, or dive once Mario falls far enough. This prevents last second action to avoid fall damage.
+- Poison Gas hurts Mario slower.
 ## FIRIPPU NOTES END ##
 
 # sm64ex
