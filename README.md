@@ -1,3 +1,14 @@
+## FIRIPPU NOTES START ##
+This fork is for my personal preference edits.
+List of current edits;
+- Coins don't increase Mario's health.
+- Water surface doesn't increase Mario's health.
+- Being submerged in water doesn't hurt Mario.
+- Mario gets fall damage from moderate heights.
+- Mario dies from falling from high heights.
+- Mario cannot use groundpound, kick, or dive once Mario falls far enough. This prevents last second action to avoid fall damage.
+## FIRIPPU NOTES END ##
+
 # sm64ex
 Fork of [sm64-port/sm64-port](https://github.com/sm64-port/sm64-port) with additional features. 
 
