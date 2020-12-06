@@ -81,7 +81,7 @@ s32 check_fall_damage(struct MarioState *m, u32 hardFallAction) {
 #pragma GCC diagnostic pop
 
     if (m->action != ACT_TWIRLING && m->floor->type != SURFACE_BURNING) {
-        if (m->vel[1] < -55.0f) {
+        //if (m->vel[1] < -55.0f) { // original line
             //if (fallHeight > 1150.0f) { // original line
             if (m->flags & MARIO_UNKNOWN_18) { // mario dies if far fall sound played
                 m->hurtCounter += (m->flags & MARIO_CAP_ON_HEAD) ? 32 : 32; // changed from 16 : 24
@@ -97,7 +97,7 @@ s32 check_fall_damage(struct MarioState *m, u32 hardFallAction) {
                 set_camera_shake_from_hit(SHAKE_FALL_DAMAGE);
                 play_sound(SOUND_MARIO_ATTACKED, m->marioObj->header.gfx.cameraToObject);
             }
-        }
+        //}
     }
 
     return FALSE;
